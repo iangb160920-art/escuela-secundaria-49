@@ -15,3 +15,18 @@ main{max-width:1150px;margin:auto;background:#fff;min-height:70vh}.hero{padding:
 .info-pendiente{padding:16px;border-left:4px solid var(--cafe-dorado);background:var(--gris-claro);border-radius:4px}.contacto-datos{display:grid;grid-template-columns:1fr 1fr;gap:25px}.mapa{background:var(--gris-claro);min-height:260px;display:grid;place-items:center;border:1px dashed #999;border-radius:8px;text-align:center;padding:20px}
 footer{background:var(--azul-marino);color:#fff;text-align:center;padding:25px 20px}footer a{color:var(--azul-claro)}
 @media(max-width:900px){.cabecera{flex-direction:column;text-align:center}.tarjetas,.contacto-datos{grid-template-columns:1fr}.menu{flex-direction:column;text-align:center}.submenu{position:static;display:block;border-top:0;background:rgba(255,255,255,.06)}}
+
+
+.logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+
+.logo-link {
+  display: inline-block;
+  text-decoration: none;
+}
