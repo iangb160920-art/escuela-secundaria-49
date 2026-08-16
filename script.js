@@ -79,12 +79,13 @@ function buscarContenido() {
 }
 
 
-// PERMITE BUSCAR PRESIONANDO ENTER
+// BUSCAR PRESIONANDO ENTER
 document.addEventListener("DOMContentLoaded", function () {
 
   const input = document.getElementById("buscar");
 
   if (input) {
+
     input.addEventListener("keydown", function (event) {
 
       if (event.key === "Enter") {
@@ -92,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
     });
+
   }
 
 });
