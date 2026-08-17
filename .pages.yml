@@ -1,19 +1,70 @@
 media:
-  input: images
-  output: /images
+  input: .
+  output: /
 
 content:
-  - name: paginas
-    label: Páginas del sitio
-    type: collection
-    path: .
-    filename: "{primary}.html"
-    view:
-      fields: [title]
-    fields:
-      - name: title
-        label: Nombre
-        type: string
-      - name: body
-        label: Contenido
-        type: code
+  - name: inicio
+    label: Inicio
+    type: file
+    path: index.html
+    format: code
+
+  - name: nosotros
+    label: Nosotros
+    type: file
+    path: nosotros.html
+    format: code
+
+  - name: filosofia
+    label: Filosofía institucional
+    type: file
+    path: filosofia.html
+    format: code
+
+  - name: historia
+    label: Historia
+    type: file
+    path: historia.html
+    format: code
+
+  - name: oferta
+    label: Oferta educativa
+    type: file
+    path: oferta.html
+    format: code
+
+  - name: inscripcion
+    label: Inscripción
+    type: file
+    path: inscripcion.html
+    format: code
+
+  - name: colegiaturas
+    label: Pago de colegiaturas
+    type: file
+    path: colegiaturas.html
+    format: code
+
+  - name: contacto
+    label: Contacto
+    type: file
+    path: contacto.html
+    format: code
+
+  - name: ubicacion
+    label: Ubicación
+    type: file
+    path: ubicacion.html
+    format: code
+
+  - name: instalaciones
+    label: Instalaciones
+    type: file
+    path: instalaciones.html
+    format: code
+
+  - name: blog
+    label: Blog
+    type: file
+    path: blog.html
+    format: code
